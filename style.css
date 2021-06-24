@@ -24,7 +24,80 @@ body{
   flex-grow: 1;
 }
 
+.bg-cover {
+  background-size: cover;
+}
 
+#deere-logo {
+  background-image: url(//placebeard.it/100x100);
+}
+
+
+#lawn {
+  background-image: url(//placebeard.it/2500x2000);
+  background-size: cover;
+  height: 80vh;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 15px black;
+}
+
+.green-text {
+  color: green;
+}
+
+#gator-util {
+  background-color: rgb(65, 64, 64);
+}
+
+.btn-secondary {
+  background-color: yellow;
+  color: black;
+}
+
+.text-yellow {
+  color: yellow;
+}
+
+#three-mowers {
+  background-image: url(//placebeard.it/1400x1000);
+  background-size: cover;
+  height: 80vh;
+}
+
+/* Works should proably fix  */
+.space {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.btn-green-border {
+  outline: 2px solid green;
+}
+
+.btn-yellow-border {
+  outline: 2px solid yellow;
+}
+
+.btn-grey-border {
+  outline: 2px solid grey;
+}
+.lawn-new {
+  height:50vh;
+  background-image: url(//placebeard.it/1600x1300);
+}
+
+.bg-grey {
+  background-color: rgba(153, 147, 147, 0.671)(128, 128, 128, 0.671);
+}
+
+.a{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
 /* NOTE media switch
  @media only screen and (min-width: 768px) {
